@@ -11,7 +11,7 @@ const io = new Server(server, {
         origin: "http://localhost:3000",
         methods: ["GET", "POST"],
     },
-})
+});
 
 // listening to event called "connection"
 io.on("connection", (socket) => {
@@ -23,7 +23,7 @@ io.on("connection", (socket) => {
     });
 
     socket.on("send_message", (data)=> {
-        console.log(data);
+        socket.to(data.room).emit("receive_message", data);
     });
 
     socket.on("disconnect", () => {
