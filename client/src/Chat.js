@@ -9,7 +9,7 @@ function Chat({socket, username, room }) {
     // asynchronous function because we want function to wait until message is sent to update array
     const sendMessage = async () => {
         if (currentMessage !== "") {
-            // msg data gets passed to socket server
+            // message data gets passed to socket server
             const messageData = {
                 room: room,
                 author: username,
@@ -38,14 +38,16 @@ function Chat({socket, username, room }) {
                 <ScrollToBottom className="message-container">
                     {messageList.map((messageContent) => {
                         return (
+                        // sets the correct author of messages sent in chatroom
                         <div 
                             className="message" 
                             id={username === messageContent.author ? "you" : "other"}>
+                            
                             <div>
                             <div className="message-content">
                                 <p>{messageContent.message}</p>
                             </div> 
-                            
+                            {/* Adds timestamp and author to sent messages */}
                                 <div className="message-meta">
                                 <p id="time">{messageContent.time}</p>
                                 <p id="author">{messageContent.author}</p>
@@ -68,7 +70,6 @@ function Chat({socket, username, room }) {
                     onKeyPress={(event) => {event.key === "Enter" && sendMessage();
                 }}
                 />
-                {/* Potentially use Material UI for buttons and other components??? */}
                 <button onClick={sendMessage}>&#9658;</button> 
             </div>
         </div>

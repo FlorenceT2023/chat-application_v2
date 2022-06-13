@@ -16,13 +16,16 @@ function App() {
       socket.emit("join_room", room)
       setShowChat(true); //Allows chatbox to be visible if name and roomID is not null
     }
+    else {
+      alert("Please fill out Name and RoomID");
+    }
   };
 
   return (
     <div className="App">
       {!showChat ? (
       <div className="joinChatContainer">
-        <h3>Join a Chat</h3>
+        <h3>Join Chat🥳</h3>
         <input 
           type="text" 
           placeholder="Name" 
@@ -30,20 +33,25 @@ function App() {
             setUsername(event.target.value);
           }} 
         />
+        
         <input 
           type="text" 
-          placeholder="Room ID" 
+          placeholder="Room ID"
+          onKeyPress={(event) => {event.key === 'Enter' && joinRoom()
+          }} 
           onChange = {(event) => { 
             setRoom(event.target.value);
           }} 
         />
-        <button onClick={joinRoom}>Join room</button>
+        <button 
+        onClick={joinRoom}>Join room</button>
       </div>
       ) : (
         // creates socket prop (property) 
         <Chat socket={socket} username={username} room={room} /> 
       )}
     </div>
+    
   );
 }
 

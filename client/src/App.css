@@ -1,8 +1,8 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background: #fff;
-  color: #212121;
+  background: #F9DEC9;
+  color: #523428;
   font-family: "Open Sans", sans-serif;
   display: grid;
   place-items: center;
@@ -19,15 +19,22 @@ body {
   text-align: center;
 }
 
+.joinChatContainer p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .joinChatContainer h3 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
+
 .joinChatContainer input {
   width: 210px;
   height: 40px;
   margin: 7px;
-  border: 2px solid #43a047;
+  border: 2px solid #523428;
   border-radius: 5px;
   padding: px;
   font-size: 16px;
@@ -42,13 +49,13 @@ body {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
-  background: #43a047;
+  background: #523428;
   color: #fff;
   cursor: pointer;
 }
 
 .joinChatContainer button:hover {
-  background: #2e7d32;
+  background: #7b5140;
 }
 
 .chat-window {
@@ -62,7 +69,7 @@ body {
 .chat-window .chat-header {
   height: 45px;
   border-radius: 6px;
-  background: #263238;
+  background: #E48B9F;
   position: relative;
   cursor: pointer;
 }
@@ -102,7 +109,7 @@ body {
   height: auto;
   min-height: 40px;
   max-width: 120px;
-  background-color: #43a047;
+  background-color: #97B295;
   border-radius: 5px;
   color: white;
   display: flex;
@@ -134,7 +141,7 @@ body {
 
 #other .message-content {
   justify-content: flex-end;
-  background-color: cornflowerblue;
+  background-color: #876E7F;
 }
 
 #other .message-meta {
@@ -154,7 +161,7 @@ body {
 
 .chat-window .chat-footer {
   height: 40px;
-  border: 1px solid #263238;
+  border: 1px solid #523428;
   border-top: none;
   display: flex;
 }
@@ -165,7 +172,7 @@ body {
   border: 0;
   padding: 0 0.7em;
   font-size: 1em;
-  border-right: 1px dotted #607d8b;
+  border-right: 1px dotted #523428;
 
   outline: none;
   font-family: "Open Sans", sans-serif;
@@ -181,11 +188,11 @@ body {
   background: transparent;
   outline: none;
   font-size: 25px;
-  color: lightgray;
+  color: #E48B9F;
 }
 
 .chat-window .chat-footer button:hover {
-  color: #43a047;
+  color: #523428;
 }
 .hide {
   opacity: 0 !important;
