@@ -3,7 +3,7 @@
 This is the second version of my AdvancedJS project where all the modules are up to date. It is a fun yet simple chat application designed to be more aesthetically pleasing.
 
 ## Description
-<img src="ChatScreenshot.PNG" alt="picture of sample chatbox">
+<img align="center" src="ChatScreenshot.PNG" alt="picture of sample chatbox">
 
 
 
