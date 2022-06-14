@@ -34,5 +34,9 @@ Navigate to the client folder and run this command:
 npx create-react-app .
 ```
 
+### Testing the Application
+
+Copy/paste the localhost in a new browser and make sure you use the same Room ID for both browsers to properly send messages.
+
 Credit (PedroTech's Realtime Chat Application): https://www.youtube.com/watch?v=NU-HfZY3ATQ
 <br>// NOTE: If you are building this project, make sure you get rid of the React StrictMode tags in the client src folder as it duplicates the messages sent.
