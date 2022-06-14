@@ -5,6 +5,7 @@ This is the second version of my Advanced JavaScript project where all the modul
 I have chosen this project as a way to gain a better understanding of React, Node and Express as well as learn something new (Socket.IO).
 
 ## Description
+<img src="Screenshot2.PNG" alt="picture of sample chatbox"> 
 <img src="ChatScreenshot.PNG" alt="picture of sample chatbox" height="500" width="400"> 
 
 ### Built With
