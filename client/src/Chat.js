@@ -47,6 +47,7 @@ function Chat({socket, username, room }) {
                             <div className="message-content">
                                 <p>{messageContent.message}</p>
                             </div> 
+                            
                             {/* Adds timestamp and author to sent messages */}
                                 <div className="message-meta">
                                 <p id="time">{messageContent.time}</p>
