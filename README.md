@@ -11,7 +11,7 @@ This is the second version of my AdvancedJS project where all the modules are up
 * [Node.js](https://nodejs.org/en/)
 * [Socket.IO](https://socket.io/)
 * [Express](https://expressjs.com/)
-* [Nodemon](https://www.npmjs.com/package/nodemon))
+* [Nodemon](https://www.npmjs.com/package/nodemon)
 * [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * [Coolors.co](https://coolors.co/)
 
