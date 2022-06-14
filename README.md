@@ -13,7 +13,7 @@ This is the second version of my AdvancedJS project where all the modules are up
 * [Express](https://expressjs.com/)
 * [Nodemon](https://www.npmjs.com/package/nodemon)
 * [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-* [Coolors.co](https://coolors.co/)
+* [Coolors.co](https://coolors.co/) - Getting the colour scheme for application
 
 ## Getting Started
 
