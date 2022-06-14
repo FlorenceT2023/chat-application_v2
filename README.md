@@ -11,8 +11,9 @@ This is the second version of my AdvancedJS project where all the modules are up
 * [Node.js](https://nodejs.org/en/)
 * [Socket.IO](https://socket.io/)
 * [Express](https://expressjs.com/)
-* [Nodemon](https://www.npmjs.com/package/nodemon)
+* [Nodemon](https://www.npmjs.com/package/nodemon))
 * [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+* [Coolors.co](https://coolors.co/)
 
 ## Getting Started
 
@@ -43,4 +44,4 @@ Copy/paste the localhost in a new browser and make sure you use the same Room ID
 ## Credit 
 PedroTech's Realtime Chat Application: https://www.youtube.com/watch?v=NU-HfZY3ATQ
 
-**NOTE:** If you are building this project from scratch, make sure you get rid of the React StrictMode tags in the client src folder as it duplicates the messages sent.
+**NOTE:** If you are building this project from scratch, you must get rid of the React StrictMode tags in the client src folder as it duplicates the messages sent.
