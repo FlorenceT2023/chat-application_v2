@@ -3,6 +3,7 @@
 This is the second version of my AdvancedJS project where all the modules are up to date. It is a fun yet simple chat application designed to be more aesthetically pleasing and using PedroTech's tutorial as a basis for the application, I have added a additional quality of life improvements to the app so the end user can send and receive messages efficiently.
 
 ## Description
+<img src="Screenshot2.PNG" alt="picture of sample chatbox"> 
 <img src="ChatScreenshot.PNG" alt="picture of sample chatbox" height="500" width="400"> 
 
 ### Built With
