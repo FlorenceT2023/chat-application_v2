@@ -34,7 +34,6 @@ Then, run the next command to install the packages:
 ```
 npm i express nodemon socket.io cors
 ```
-
 Navigate to the client folder and run this command:
 ```
 npx create-react-app .
