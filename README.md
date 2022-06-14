@@ -42,7 +42,9 @@ npx create-react-app .
 
 **IMPORTANT:** To run the application locally, ensure that you run the command ```npm start``` in both the client and server directory.
 
-Copy/paste the localhost in a new browser and make sure you use the same Room ID for both browsers to properly send messages.
+If you are building this project from scratch, you must get rid of the React StrictMode tags in the client src folder as it duplicates the messages sent.
+
+Copy/paste the localhost in another browser and make sure you use the same Room ID for both browsers to properly send messages.
 
 ## Future Updates
 Ideally, I would have liked to add more features to make the user experience more engaging and create a more robust application. Some potential updates for this project at a later date include:
@@ -53,5 +55,3 @@ Ideally, I would have liked to add more features to make the user experience mor
 
 ## Credit 
 PedroTech's Realtime Chat Application: https://www.youtube.com/watch?v=NU-HfZY3ATQ
-
-**NOTE:** If you are building this project from scratch, you must get rid of the React StrictMode tags in the client src folder as it duplicates the messages sent.
