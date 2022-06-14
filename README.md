@@ -36,6 +36,8 @@ npx create-react-app .
 
 ### Testing the Application
 
+**IMPORTANT:** To run the application, ensure that you run the command ```npm start``` in both the client and server directory.
+
 Copy/paste the localhost in a new browser and make sure you use the same Room ID for both browsers to properly send messages.
 
 ## Credit 
