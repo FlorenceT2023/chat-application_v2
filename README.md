@@ -18,7 +18,7 @@ This is the second version of my AdvancedJS project where all the modules are up
 
 ### Installation
 
-Run the following commands:
+Run the following commands (if you cannot run the project properly on your machine):
 ```
 cd server
 npm init
